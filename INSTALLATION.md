@@ -15,7 +15,7 @@ Complete guide to install and run Instagram Gemini Bot.
 > Note: This assumes the package is published on PyPI
 
 ```bash
-pip install insta-bot-gemini
+pip install instabot
 ```
 
 Then jump to [Configuration](#configuration)
@@ -86,7 +86,7 @@ my_super_secret_token_123
 Run the interactive initialization:
 
 ```bash
-insta-bot init
+instabot init
 ```
 
 This will prompt you for all required values and create a `.env` file.
@@ -109,7 +109,7 @@ BOT_INSTRUCTIONS=You are a helpful Instagram assistant.
 ### 3. Verify Configuration
 
 ```bash
-insta-bot validate
+instabot validate
 ```
 
 Expected output:
@@ -139,7 +139,7 @@ gunicorn -w 4 -b 0.0.0.0:8000 main:bot.app
 ### Using CLI
 
 ```bash
-insta-bot run --host 0.0.0.0 --port 8000
+instabot run --host 0.0.0.0 --port 8000
 ```
 
 ## Setting Up Webhook

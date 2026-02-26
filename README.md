@@ -19,11 +19,11 @@ A Python package to build intelligent Instagram DM bots powered by Google Gemini
 
 ```bash
 # From PyPI (when published)
-pip install insta-bot-gemini
+pip install instabot
 
 # Or from source
-git clone https://github.com/yourusername/insta-bot-gemini
-cd insta-bot-gemini
+git clone https://github.com/23f2001706/insta
+cd insta
 pip install -e .
 ```
 
@@ -139,13 +139,13 @@ bot.run()
 
 ```bash
 # Interactive setup
-insta-bot init
+instabot init
 
 # Validate configuration
-insta-bot validate
+instabot validate
 
 # Run the bot
-insta-bot run --host 0.0.0.0 --port 8000
+instabot run --host 0.0.0.0 --port 8000
 ```
 
 ## Webhook Setup 🔗

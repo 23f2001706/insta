@@ -3,7 +3,7 @@ requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "insta-bot-gemini"
+name = "instabot"
 version = "1.0.0"
 description = "Instagram DM bot powered by Google Gemini AI"
 readme = "README.md"
@@ -45,4 +45,4 @@ Repository = "https://github.com/yourusername/insta-bot-gemini.git"
 Issues = "https://github.com/yourusername/insta-bot-gemini/issues"
 
 [project.scripts]
-insta-bot = "insta_bot.cli:cli"
+instabot = "insta_bot.cli:cli"

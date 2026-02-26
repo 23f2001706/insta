@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="insta-bot-gemini",
+    name="instabot",
     version="1.0.0",
     author="Jatin",
     author_email="jatin@example.com",
@@ -35,7 +35,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "insta-bot=insta_bot.cli:cli",
+            "instabot=insta_bot.cli:cli",
         ],
     },
 )

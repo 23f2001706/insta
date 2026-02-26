@@ -48,7 +48,7 @@ When prompted:
 
 Anyone can now install your bot:
 ```bash
-pip install insta-bot-gemini
+pip install instabot
 ```
 
 ---
@@ -62,10 +62,10 @@ pip install insta-bot-gemini
 twine upload --repository testpypi dist/*
 
 # Install from test repository to verify
-pip install --index-url https://test.pypi.org/simple/ insta-bot-gemini
+pip install --index-url https://test.pypi.org/simple/ instabot
 
 # Then test it works:
-insta-bot init
+instabot init
 ```
 
 If all works, then upload to real PyPI.
@@ -138,7 +138,7 @@ For future releases:
 
 After publishing, view it at:
 ```
-https://pypi.org/project/insta-bot-gemini/
+https://pypi.org/project/instabot/
 ```
 
 ---
@@ -159,13 +159,13 @@ twine upload dist/*
 twine upload --repository testpypi dist/*
 
 # Install from PyPI
-pip install insta-bot-gemini
+pip install instabot
 
 # Install specific version
-pip install insta-bot-gemini==1.0.0
+pip install instabot==1.0.0
 
 # List PyPI versions
-pip index versions insta-bot-gemini
+pip index versions instabot
 ```
 
 ---
@@ -194,7 +194,7 @@ pip index versions insta-bot-gemini
 
 Now anyone in the world can use:
 ```bash
-pip install insta-bot-gemini
+pip install instabot
 ```
 
 ---
