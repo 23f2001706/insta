@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="insta-bot-gemini",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Jatin",
+    author_email="jatin@example.com",
     description="Instagram DM bot powered by Google Gemini AI",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/insta-bot-gemini",
+    url="https://github.com/23f2001706/insta",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
