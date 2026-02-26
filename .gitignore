@@ -2,6 +2,7 @@
 .env
 .env.local
 .env.*.local
+.env.example.local
 
 # Python
 __pycache__/
@@ -16,13 +17,19 @@ build/
 venv/
 ENV/
 env/
+.eggs/
+*.egg
 
-# IDE
+# IDE & Editor
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
 
 # Database
 *.db
@@ -30,14 +37,27 @@ env/
 *.sqlite3
 conversations.db
 
-# Logs
+# Logs & Cache
 *.log
 logs/
+.pytest_cache/
+.coverage
+htmlcov/
 
-# OS
+# Testing
+.tox/
+.hypothesis/
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
 Thumbs.db
+ehthumbs.db
 
 # Project specific
-conversations.db
 processed_messages_cache.json
+*.zip
+*.tar.gz
