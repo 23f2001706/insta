@@ -15,7 +15,7 @@ Complete guide to install and run Instagram Gemini Bot.
 > Note: This assumes the package is published on PyPI
 
 ```bash
-pip install instabot
+pip install instachatdmbot
 ```
 
 Then jump to [Configuration](#configuration)
@@ -86,7 +86,7 @@ my_super_secret_token_123
 Run the interactive initialization:
 
 ```bash
-instabot init
+instachatdmbot init
 ```
 
 This will prompt you for all required values and create a `.env` file.
@@ -109,7 +109,7 @@ BOT_INSTRUCTIONS=You are a helpful Instagram assistant.
 ### 3. Verify Configuration
 
 ```bash
-instabot validate
+instachatdmbot validate
 ```
 
 Expected output:
@@ -139,7 +139,7 @@ gunicorn -w 4 -b 0.0.0.0:8000 main:bot.app
 ### Using CLI
 
 ```bash
-instabot run --host 0.0.0.0 --port 8000
+instachatdmbot run --host 0.0.0.0 --port 8000
 ```
 
 ## Setting Up Webhook
@@ -194,7 +194,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Install again
-pip install -e .
+pip install instachatdmbot
 ```
 
 ### ModuleNotFoundError: No module named 'flask'

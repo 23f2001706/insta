@@ -19,7 +19,7 @@ A Python package to build intelligent Instagram DM bots powered by Google Gemini
 
 ```bash
 # From PyPI (when published)
-pip install instabot
+pip install instachatdmbot
 
 # Or from source
 git clone https://github.com/23f2001706/insta
@@ -139,13 +139,13 @@ bot.run()
 
 ```bash
 # Interactive setup
-instabot init
+instachatdmbot init
 
 # Validate configuration
-instabot validate
+instachatdmbot validate
 
 # Run the bot
-instabot run --host 0.0.0.0 --port 8000
+instachatdmbot run --host 0.0.0.0 --port 8000
 ```
 
 ## Webhook Setup 🔗

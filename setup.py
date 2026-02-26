@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="instabot",
+    name="instachatdmbot",
     version="1.0.0",
     author="Jatin",
     author_email="jatin@example.com",
@@ -35,7 +35,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "instabot=insta_bot.cli:cli",
+            "instachatdmbot=insta_bot.cli:cli",
         ],
     },
 )

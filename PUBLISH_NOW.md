@@ -48,7 +48,7 @@ When prompted:
 
 Anyone can now install your bot:
 ```bash
-pip install instabot
+pip install instachatdmbot
 ```
 
 ---
@@ -62,10 +62,10 @@ pip install instabot
 twine upload --repository testpypi dist/*
 
 # Install from test repository to verify
-pip install --index-url https://test.pypi.org/simple/ instabot
+pip install --index-url https://test.pypi.org/simple/ instachatdmbot
 
 # Then test it works:
-instabot init
+instachatdmbot init
 ```
 
 If all works, then upload to real PyPI.
@@ -138,7 +138,7 @@ For future releases:
 
 After publishing, view it at:
 ```
-https://pypi.org/project/instabot/
+https://pypi.org/project/instachatdmbot/
 ```
 
 ---
@@ -159,13 +159,13 @@ twine upload dist/*
 twine upload --repository testpypi dist/*
 
 # Install from PyPI
-pip install instabot
+pip install instachatdmbot
 
 # Install specific version
-pip install instabot==1.0.0
+pip install instachatdmbot==1.0.0
 
 # List PyPI versions
-pip index versions instabot
+pip index versions instachatdmbot
 ```
 
 ---
@@ -194,7 +194,7 @@ pip index versions instabot
 
 Now anyone in the world can use:
 ```bash
-pip install instabot
+pip install instachatdmbot
 ```
 
 ---
